@@ -11681,7 +11681,16 @@ repositories:
       type: git
       url: https://github.com/polymathrobotics/socketcan_adapter.git
       version: main
+    release:
+      packages:
+      - socketcan_adapter
+      - socketcan_adapter_ros
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/socketcan_adapter-release.git
+      version: 0.2.0-1
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/polymathrobotics/socketcan_adapter.git
       version: main
